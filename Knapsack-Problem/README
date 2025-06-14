@@ -1,1 +1,28 @@
+# 0/1 Knapsack Problem - Multiple Solution Approaches
+
+## Overview
+This project provides multiple C implementations to solve the **0/1 Knapsack Problem** using:
+
+- ✅ Random Instance Generator  
+- 🧠 Brute Force Algorithm  
+- 📦 Refined Dynamic Programming  
+- ⚡ Improved Greedy Approximation (Greedy 4)
+
+Each program reads from a standardized input file and produces a corresponding output file, detailing selected items and results.
+
+---
+
+## 📁 Project Structure
+
+| File                | Purpose                                      |
+|---------------------|----------------------------------------------|
+| `createkn01.c`      | Generates random knapsack problem instances  |
+| `bruteforce.c`      | Solves using brute-force method              |
+| `dynopro.c`         | Solves using refined dynamic programming     |
+| `igreedy.c`         | Solves using improved greedy approximation   |
+| `knapsack01.txt`    | Generated problem instance                   |
+| `output1.txt`       | Brute force solution                         |
+| `entries2.txt`      | Tracked DP entries (refined DP)              |
+| `output2.txt`       | Dynamic programming solution                 |
+| `output3.txt`       | Improved greedy solution                     |
 
